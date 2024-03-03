@@ -1,0 +1,11 @@
+.wrapper {
+    margin-left: 250px;
+}
+
+.root-app {
+    background: palevioletred;
+}
+
+.remote-app {
+    background: darkkhaki;
+}

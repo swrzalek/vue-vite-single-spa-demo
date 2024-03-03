@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@titanbay/app": "http://localhost:4101/assets/main.ts"
+  }
+}
