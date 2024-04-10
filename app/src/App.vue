@@ -1,5 +1,16 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
+import {getCurrentInstance, provide, ref, useAttrs} from "vue";
+
+const attrs = useAttrs()
+const getToken = () => {
+  if(attrs?.props?.getToken) {
+    return attrs?.props?.getToken()
+  }
+  return null
+}
+
+provide('getToken', getToken)
 </script>
 
 <template>
