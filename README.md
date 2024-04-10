@@ -13,7 +13,7 @@ npm run dev
 ## Remote App [App]
 
 ```bash
-cd root
+cd remote
 npm install
 npm run dev
 ```
